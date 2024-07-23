@@ -1,0 +1,92 @@
+########################## [ 북큐브 ] ##########################
+### 한국토지주택공사
+GET https://library.lh.or.kr/FxLibrary/m/product/productSearch/
+?category=
+&sort=3
+&keyword=역행자
+&keyoption2=
+&page=1
+
+### 서울시교육청
+GET http://e-lib.sen.go.kr:8081/FxLibrary/m/product/productSearch/
+?category=
+&sort=3
+&keyword=문학
+&keyoption2=
+&page=1
+
+### 파주시
+GET http://lib2.paju.go.kr:8080/FxLibrary/m/product/productSearch/
+?category=
+&sort=3
+&keyword=문학
+&keyoption2=
+&page=1
+
+### 방송통신대
+GET https://ebook.knou.ac.kr:447/FxLibrary/m/product/productSearch/
+?category=
+&sort=3
+&keyword=문학
+&keyoption2=
+&page=1
+
+
+###
+GET https://ebook.knou.ac.kr:447/FxLibrary/m/product/productSearch/?category=&sort=3&keyword=%EB%84%9B%EC%A7%80&keyoption2=&page=1
+Accept: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+
+########################## [ 교보 ] ##########################
+### 하남시립
+POST https://ebook.hanamlib.go.kr/Kyobo_T3_Mobile/Phone/Main/List_Appendix.asp
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+
+paging=1&type=&keyWord=%EB%AC%B8%ED%95%99&sortType=3&classCode=&product_cd=&categoryName=&borrowRadio=
+
+### 동대문구립
+POST https://e-book.l4d.or.kr/Kyobo_T3_Mobile/Phone/Main/List_Appendix.asp
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+
+paging=1&type=&keyWord=%EB%AC%B8%ED%95%99&sortType=3&classCode=&product_cd=&categoryName=&borrowRadio=
+
+### 경기도사이버
+POST http://ebook.golibrary.go.kr:8091/Kyobo_T3_Mobile/Phone/Main/List_Appendix.asp
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+
+paging=1&type=&keyWord=%EB%AC%B8%ED%95%99&sortType=3&classCode=&product_cd=&categoryName=&borrowRadio=
+
+### 서울시교육청 (교보/yes/북큐브)
+POST http://e-lib.sen.go.kr:8090/Kyobo_T3_Mobile/Phone/Main/List_Appendix.asp
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+
+paging=1&type=&keyWord=%EB%AC%B8%ED%95%99&sortType=3&classCode=&product_cd=&categoryName=&borrowRadio=
+
+### 파주시 (교보/북큐브)
+POST https://lib2.paju.go.kr/Kyobo_T3_Mobile/Phone/Main/List_Appendix.asp
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+
+paging=1&type=&keyWord=%EB%AC%B8%ED%95%99&sortType=3&classCode=&product_cd=&categoryName=&borrowRadio=
+
+
+########################## [ 교보 new ] ##########################
+### 사이버(구독)
+GET https://cyberlibrary.dkyobobook.co.kr/search/searchList.ink?schClst=all&schDvsn=000&orderByKey=&schTxt=%EA%B0%80%EC%A1%B1
+
+### 경기도교육청
+GET https://elib.goe.go.kr:8201/elibrary-front/search/searchList.ink?schClst=all&schDvsn=000&orderByKey=&schTxt=%EA%B0%80%EC%A1%B1
+
+### 경기도교육청(구독)
+GET https://goe.dkyobobook.co.kr/search/searchList.ink?schDvsn=000&orderByKey=&schClst=all&schTxt=%EA%B0%80%EC%A1%B1
+
+
+########################## [ YES ] ##########################
+### 강서도서관
+GET https://ebook.gangseo.seoul.kr/search/
+?srch_order=total
+&src_key=%EC%97%AD%ED%96%89%EC%9E%90
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ko;q=0.7
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
